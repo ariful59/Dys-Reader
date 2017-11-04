@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_update"
+            android:icon="@drawable/ic_action_update"
+            android:title="Update" />
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/ic_action_search"
+            android:title="Search" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_action_settings"
+            android:title="Settings" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_social_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_content_send"
+                android:title="Send" />
+            <item
+                android:id="@+id/nav_credits"
+                android:icon="@drawable/ic_action_action_done"
+                android:title="Credit" />
+        </menu>
+    </item>
+
+</menu>
